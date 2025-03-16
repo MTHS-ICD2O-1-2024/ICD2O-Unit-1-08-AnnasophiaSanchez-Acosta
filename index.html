@@ -41,7 +41,7 @@
 
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="./js/script.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
@@ -55,16 +55,19 @@
         <div class="page-content">Intructions here</div>
         <br />
         <form action="#">
-          <div class="mdl-textfield mdl-js-ripple-effect">
+          <div
+            class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
+          >
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="length"
             />
-            <label class="mdl-textfield__label" for="demo-input"
-              >Length of ... (mm)</label
+            <label class="mdl-textfield__label" for="length"
+              >length of...(mm)</label
             >
+            <span class="mdl-textfield__error"> Input is not a number</span>
           </div>
           <br />
           <button
@@ -72,7 +75,7 @@
             onclick="myButtonClicked()"
             type="button"
           >
-            Click me!
+            Calculate
           </button>
         </form>
         <br />
