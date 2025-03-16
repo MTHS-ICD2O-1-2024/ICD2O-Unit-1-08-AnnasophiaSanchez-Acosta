@@ -15,7 +15,7 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(110, 241, 197);
+  color: rgb(110 241 197);
 }
 
 .mdl-ripple {
@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: rgb(212, 179, 239);
+  background-color: rgb(212 179 239);
 }
 
 img {
