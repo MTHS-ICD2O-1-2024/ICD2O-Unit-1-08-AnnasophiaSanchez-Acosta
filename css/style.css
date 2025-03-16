@@ -29,6 +29,7 @@ body {
 
 img {
   float: right;
+  display:block;
   height: 200px;
 }
 

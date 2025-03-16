@@ -4,6 +4,6 @@
 // Created on: Mar 2025
 // This file contains the JS functions for index.html
 
-function myButtonClicked() {
-  alert("Hello, World!")
+  function myButtonClicked () {
+  alert('Hello, World!')
 }
